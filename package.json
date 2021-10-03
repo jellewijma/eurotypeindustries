@@ -1,0 +1,23 @@
+{
+  "name": "eurotype-industies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "autoprefixer": "^10.3.6",
+    "git": "^0.1.5",
+    "tailwindcss": "^2.2.15"
+  },
+  "devDependencies": {
+    "postcss": "^8.3.8",
+    "postcss-cli": "^8.3.1",
+    "watch": "^1.0.2"
+  },
+  "scripts": {
+    "build:css": "postcss static/tailwind.css -o style/tailwind.css",
+    "watch": "watch \"npm run build:css\" ../"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eurotype Industies</title>
+  <link rel="stylesheet" href="/tailwind.css">
+  <link rel="icon" href="/source/ET-logo-small.svg">
+  <script src="//unpkg.com/alpinejs" defer></script>
+</head>
+
+<body x-data="{ open: false }" :class="{ 'overflow-hidden': open }" class="h-screen" x-transition>
+  <header class="text-gray-600 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <svg width="45px" height="45px" viewBox="0 0 2729 2729" version="1.1" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
+          style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+          <g transform="matrix(1,0,0,1,-59568,-6771)">
+            <g id="Logo" transform="matrix(1,0,0,1,-0.5475,-0.325)">
+              <g clip-path="url(#_clip1)">
+                <g transform="matrix(4.16667,0,0,4.16667,60895,7858.64)">
+                  <path
+                    d="M0,133.126L-219.284,133.126C-223.702,133.126 -227.284,129.545 -227.284,125.126L-227.284,40.49C-227.284,36.072 -223.702,32.49 -219.284,32.49L0,32.49C4.418,32.49 8,36.072 8,40.49L8,125.126C8,129.545 4.418,133.126 0,133.126M240.879,-58.172L-219.284,-58.172C-223.702,-58.172 -227.284,-61.753 -227.284,-66.172L-227.284,-162.216C-227.284,-166.634 -223.702,-170.216 -219.284,-170.216L-67.282,-170.216C-62.863,-170.216 -59.282,-166.634 -59.282,-162.216L-59.282,-148.936C-59.282,-144.518 -55.7,-140.936 -51.282,-140.936L-5.767,-140.936C-1.348,-140.936 2.233,-144.518 2.233,-148.936L2.233,-223.138C2.233,-223.586 2.202,-224.025 2.147,-224.459C2.099,-224.843 2.062,-225.228 2.062,-225.615L2.062,-252.878C2.062,-257.296 -1.52,-260.878 -5.938,-260.878L-310.228,-260.878C-314.646,-260.878 -318.228,-257.296 -318.228,-252.878L-318.228,215.788C-318.228,220.206 -314.646,223.788 -310.228,223.788L0,223.788C4.418,223.788 8,227.37 8,231.788L8,324.488C8,328.906 4.418,332.488 0,332.488L-20.946,332.488C-25.364,332.488 -28.946,336.069 -28.946,340.488L-28.946,386.004C-28.946,390.422 -25.364,394.004 -20.946,394.004L127.89,394.004C132.308,394.004 135.89,390.422 135.89,386.004L135.89,340.488C135.89,336.069 132.308,332.488 127.89,332.488L106.944,332.488C102.526,332.488 98.944,328.906 98.944,324.488L98.944,40.49C98.944,36.072 102.526,32.49 106.944,32.49L167.623,32.49C172.042,32.49 175.623,36.072 175.623,40.49L175.623,147.422C175.623,151.841 179.205,155.422 183.623,155.422L240.879,155.422C245.298,155.422 248.879,151.841 248.879,147.422L248.879,-50.172C248.879,-54.59 245.298,-58.172 240.879,-58.172"
+                    style="fill:rgba(52, 211, 153);fill-rule:nonzero; " />
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>
+        <span class="ml-3 text-xl">Eurotype <br> Industies</span>
+      </a>
+      <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+        <a class="mr-5 hover:text-gray-900" href="index.html">Home</a>
+        <a class="mr-5 hover:text-gray-900" href="store.html">Store</a>
+        <a class="mr-5 hover:text-gray-900" href="collection.html">Collection</a>
+        <a class="mr-5 hover:text-gray-900" href="about.html">About us</a>
+      </nav>
+      <button
+        class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"
+        x-on:click="open = ! open;">Login
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+      </button>
+    </div>
+  </header>
+  <footer class="text-gray-600 body-font">
+    <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+        <svg width="45px" height="45px" viewBox="0 0 2729 2729" version="1.1" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
+          style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+          <g transform="matrix(1,0,0,1,-59568,-6771)">
+            <g id="Logo" transform="matrix(1,0,0,1,-0.5475,-0.325)">
+              <g clip-path="url(#_clip1)">
+                <g transform="matrix(4.16667,0,0,4.16667,60895,7858.64)">
+                  <path
+                    d="M0,133.126L-219.284,133.126C-223.702,133.126 -227.284,129.545 -227.284,125.126L-227.284,40.49C-227.284,36.072 -223.702,32.49 -219.284,32.49L0,32.49C4.418,32.49 8,36.072 8,40.49L8,125.126C8,129.545 4.418,133.126 0,133.126M240.879,-58.172L-219.284,-58.172C-223.702,-58.172 -227.284,-61.753 -227.284,-66.172L-227.284,-162.216C-227.284,-166.634 -223.702,-170.216 -219.284,-170.216L-67.282,-170.216C-62.863,-170.216 -59.282,-166.634 -59.282,-162.216L-59.282,-148.936C-59.282,-144.518 -55.7,-140.936 -51.282,-140.936L-5.767,-140.936C-1.348,-140.936 2.233,-144.518 2.233,-148.936L2.233,-223.138C2.233,-223.586 2.202,-224.025 2.147,-224.459C2.099,-224.843 2.062,-225.228 2.062,-225.615L2.062,-252.878C2.062,-257.296 -1.52,-260.878 -5.938,-260.878L-310.228,-260.878C-314.646,-260.878 -318.228,-257.296 -318.228,-252.878L-318.228,215.788C-318.228,220.206 -314.646,223.788 -310.228,223.788L0,223.788C4.418,223.788 8,227.37 8,231.788L8,324.488C8,328.906 4.418,332.488 0,332.488L-20.946,332.488C-25.364,332.488 -28.946,336.069 -28.946,340.488L-28.946,386.004C-28.946,390.422 -25.364,394.004 -20.946,394.004L127.89,394.004C132.308,394.004 135.89,390.422 135.89,386.004L135.89,340.488C135.89,336.069 132.308,332.488 127.89,332.488L106.944,332.488C102.526,332.488 98.944,328.906 98.944,324.488L98.944,40.49C98.944,36.072 102.526,32.49 106.944,32.49L167.623,32.49C172.042,32.49 175.623,36.072 175.623,40.49L175.623,147.422C175.623,151.841 179.205,155.422 183.623,155.422L240.879,155.422C245.298,155.422 248.879,151.841 248.879,147.422L248.879,-50.172C248.879,-54.59 245.298,-58.172 240.879,-58.172"
+                    style="fill:rgba(52, 211, 153);fill-rule:nonzero; "></path>
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>
+        <span class="ml-3 text-xl">Eurotype <br> Industies</span>
+      </a>
+      <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2021
+        Eurotype Industies —
+        <a href="https://instagram/eurotype_industies" class="text-gray-600 ml-1" rel="noopener noreferrer"
+          target="_blank">@eurotype_industies</a>
+      </p>
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <a class="ml-3 text-gray-500">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            class="w-5 h-5" viewBox="0 0 24 24">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"
+            class="w-5 h-5" viewBox="0 0 24 24">
+            <path stroke="none"
+              d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+          </svg>
+        </a>
+      </span>
+    </div>
+  </footer>
+  <!-- inlog section -->
+  <section class="text-blueGray-700 absolute inset-0 filter backdrop-filter backdrop-blur-sm overflow-hidden" x-cloak
+    x-show="open" x-transition.duration.500ms>
+    <div class="flex flex-col items-center px-5 py-12 m-auto lg:px-20 h-screen">
+      <div
+        class="flex flex-col w-full p-10 m-auto transition duration-500 ease-in-out transform bg-white border rounded-lg lg:w-1/2 md:w-1/2">
+        <div class="relative ">
+          <label for="name" class="text-sm leading-7 text-blueGray-500">name</label>
+          <input type="name" id="name" name="name" placeholder="name"
+            class="w-full px-4 py-2 mt-2 text-base text-black transition duration-500 ease-in-out transform border-transparent rounded-lg bg-blueGray-100 focus:border-blueGray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2">
+        </div>
+        <div class="relative ">
+          <label for="email" class="text-sm leading-7 text-blueGray-500">Email</label>
+          <input type="email" id="email" name="email" placeholder="email"
+            class="w-full px-4 py-2 mt-2 text-base text-black transition duration-500 ease-in-out transform border-transparent rounded-lg bg-blueGray-100 focus:border-blueGray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2">
+        </div>
+        <div class="flex my-6">
+          <label class="flex items-center">
+            <input type="checkbox" class="form-checkbox ">
+            <span class="ml-2 text-blueGray-500">Register me </span>
+          </label>
+        </div>
+        <button
+          class="w-full px-16 py-2 my-2 mb-4 mr-2 text-base text-white transition duration-500 ease-in-out transform bg-green-600 border-green-600 rounded-md focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blue-800 ">
+          Button </button>
+        <hr class="my-4 border-blueGray-200">
+        <span
+          class="px-4 py-1 mx-auto -mt-10 text-xs text-black transition duration-500 ease-in-out transform bg-blueGray-200 rounded-lg">Or
+          continue with </span>
+        <div class="inline-flex items-center justify-between w-full pt-8 ">
+          <button
+            class="w-auto px-8 py-2 mr-2 text-base text-black transition duration-500 ease-in-out transform rounded-lg bg-blueGray-100 hover:bg-blueGray-200 focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 focus:border-blueGray-700 focus:bg-blueGray-800 ">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="20"
+              height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path
+                d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5">
+              </path>
+            </svg>
+          </button>
+          <button
+            class="w-auto px-8 py-2 mr-2 text-base text-black transition duration-500 ease-in-out transform rounded-lg bg-blueGray-100 hover:bg-blueGray-200 focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 focus:border-blueGray-700 focus:bg-blueGray-800 ">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-gitlab" width="20"
+              height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M21 14l-9 7l-9 -7l3 -11l3 7h6l3 -7z"></path>
+            </svg>
+          </button>
+          <button
+            class="w-auto px-8 py-2 mr-2 text-base text-black transition duration-500 ease-in-out transform rounded-lg bg-blueGray-100 hover:bg-blueGray-200 focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 focus:border-blueGray-700 focus:bg-blueGray-800 ">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="20"
+              height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path
+                d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z">
+              </path>
+            </svg>
+          </button>
+        </div>
+        <div class="w-full text-center text-green-400 cursor-pointer underline" x-on:click="open = ! open">Close</div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
